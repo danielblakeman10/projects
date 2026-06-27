@@ -9,6 +9,40 @@
 
 # Word temp/lock files
 ~$*
+~WRL*.tmp
+*.tmp
+
+# Local/generated folders
+_originals_backup_*/
+_formatted_documents/
+_formatted_converted/
+_word_html_export/
+
+# Dependency/build noise
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Terraform/AWS local state and secrets
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+.aws/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # AWS Component Projects folder at root (keep in github_markdown/)
 12 Weekly AWS Component Projects*
