@@ -1,0 +1,18 @@
+# Word docs and office files (keep markdown versions in github_markdown/)
+*.docx
+*.doc
+*.docm
+*.dotx
+*.dotm
+*.odt
+*.rtf
+
+# Word temp/lock files
+~$*
+
+# AWS Component Projects folder at root (keep in github_markdown/)
+12 Weekly AWS Component Projects*
+
+# Daniel's weekly projects at root (keep in github_markdown/)
+Daniel Blakeman's*
+Weekly project*
